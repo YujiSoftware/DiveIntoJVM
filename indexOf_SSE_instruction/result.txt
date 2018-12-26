@@ -1,0 +1,23 @@
+Benchmark               (length)   Mode  Cnt           Score           Error  Units
+MyBenchmark.testMethod    100000  thrpt    5  1241374260.255 ± 148145785.102  ops/s
+MyBenchmark.testMethod    200000  thrpt    5  1128845935.613 ± 648895178.009  ops/s
+MyBenchmark.testMethod    300000  thrpt    5  1204250080.660 ±  52601819.798  ops/s
+MyBenchmark.testMethod    400000  thrpt    5  1217161378.623 ±  28818907.329  ops/s
+MyBenchmark.testMethod    500000  thrpt    5  1223756783.097 ±  30060361.278  ops/s
+MyBenchmark.testMethod    600000  thrpt    5  1255170649.404 ±  25610895.261  ops/s
+MyBenchmark.testMethod    700000  thrpt    5  1237260299.535 ±  41042243.660  ops/s
+MyBenchmark.testMethod    800000  thrpt    5  1241136529.275 ±  26664955.658  ops/s
+MyBenchmark.testMethod    900000  thrpt    5  1254303181.229 ±  32001720.491  ops/s
+MyBenchmark.testMethod   1000000  thrpt    5  1238018408.997 ±  62635170.915  ops/s
+
+Benchmark               (length)   Mode  Cnt      Score      Error  Units
+MyBenchmark.testMethod    100000  thrpt    5  26455.189 ±   67.595  ops/s
+MyBenchmark.testMethod    200000  thrpt    5  12842.038 ± 1729.139  ops/s
+MyBenchmark.testMethod    300000  thrpt    5   6027.391 ±  940.533  ops/s
+MyBenchmark.testMethod    400000  thrpt    5   4434.703 ± 1282.027  ops/s
+MyBenchmark.testMethod    500000  thrpt    5   4638.943 ±  552.856  ops/s
+MyBenchmark.testMethod    600000  thrpt    5   3728.726 ±  396.311  ops/s
+MyBenchmark.testMethod    700000  thrpt    5   3128.830 ±  439.043  ops/s
+MyBenchmark.testMethod    800000  thrpt    5   2800.707 ±  436.883  ops/s
+MyBenchmark.testMethod    900000  thrpt    5   2490.165 ±  315.210  ops/s
+MyBenchmark.testMethod   1000000  thrpt    5   2311.197 ±   44.040  ops/s
