@@ -48,6 +48,8 @@ public class MyBenchmark {
 	public int length;
 	
 	private String text;
+	
+	public long sum;
 
 	@Setup
 	public void setup() {
@@ -61,7 +63,12 @@ public class MyBenchmark {
 	}
 
 	@Benchmark
-	public void testMethod() {
+	public void Invalid() {
 		text.indexOf("あいうえお,かきくけこ？");
+	}
+
+	@Benchmark
+	public void Valid() {
+		sum += text.indexOf("あいうえお,かきくけこ？");
 	}
 }
