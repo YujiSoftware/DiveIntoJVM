@@ -63,12 +63,12 @@ public class MyBenchmark {
 	}
 
 	@Benchmark
-	public void Invalid() {
+	public void invalid() {
 		text.indexOf("あいうえお,かきくけこ？");
 	}
 
 	@Benchmark
-	public void Valid() {
+	public void valid() {
 		sum += text.indexOf("あいうえお,かきくけこ？");
 	}
 }
